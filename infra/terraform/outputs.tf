@@ -1,48 +1,24 @@
 
-output "aws_s3_santhosh_guna_kms_arn" {
-  value = module.appcd_551e1d2b-88ec-5406-87cf-c51521bbe894.kms_arn
-  sensitive = false
-}
-
-
-output "aws_s3_santhosh_guna_arn" {
+output "aws_s3_santhosh_guna_zsdw321_arn" {
   value = module.appcd_551e1d2b-88ec-5406-87cf-c51521bbe894.arn
   sensitive = false
 }
 
 
-output "aws_s3_santhosh_guna_bucket_name" {
+output "aws_s3_santhosh_guna_zsdw321_bucket_name" {
   value = module.appcd_551e1d2b-88ec-5406-87cf-c51521bbe894.bucket_name
   sensitive = false
 }
 
 
-output "aws_s3_santhosh_guna_bucket_website_endpoint" {
+output "aws_s3_santhosh_guna_zsdw321_bucket_website_endpoint" {
   value = module.appcd_551e1d2b-88ec-5406-87cf-c51521bbe894.bucket_website_endpoint
   sensitive = false
 }
 
 
-output "aws_lambda_hello_kitty_function_santhosh_guna_function_arn" {
-  value = module.appcd_00a20b0a-2ec0-5bdc-a08d-65a85dc81d5b.function_arn
-  sensitive = false
-}
-
-
-output "aws_lambda_hello_kitty_function_santhosh_guna_function_name" {
-  value = module.appcd_00a20b0a-2ec0-5bdc-a08d-65a85dc81d5b.function_name
-  sensitive = false
-}
-
-
-output "aws_lambda_hello_kitty_function_santhosh_guna_function_url" {
-  value = module.appcd_00a20b0a-2ec0-5bdc-a08d-65a85dc81d5b.function_url
-  sensitive = false
-}
-
-
-output "aws_lambda_hello_kitty_function_santhosh_guna_invoke_arn" {
-  value = module.appcd_00a20b0a-2ec0-5bdc-a08d-65a85dc81d5b.invoke_arn
+output "aws_s3_santhosh_guna_zsdw321_kms_arn" {
+  value = module.appcd_551e1d2b-88ec-5406-87cf-c51521bbe894.kms_arn
   sensitive = false
 }
 
@@ -67,5 +43,29 @@ output "aws_cloudwatch_log_group_aws_lambda_hello_kitty_function_santhosh_guna_a
 
 output "aws_cloudwatch_log_group_aws_lambda_hello_kitty_function_santhosh_guna_name" {
   value = module.appcd_86ec452a-770a-59bf-87dd-67ed883e25e5.name
+  sensitive = false
+}
+
+
+output "aws_lambda_hello_kitty_function_santhosh_guna_function_url" {
+  value = module.appcd_00a20b0a-2ec0-5bdc-a08d-65a85dc81d5b.function_url
+  sensitive = false
+}
+
+
+output "aws_lambda_hello_kitty_function_santhosh_guna_invoke_arn" {
+  value = module.appcd_00a20b0a-2ec0-5bdc-a08d-65a85dc81d5b.invoke_arn
+  sensitive = false
+}
+
+
+output "aws_lambda_hello_kitty_function_santhosh_guna_function_arn" {
+  value = module.appcd_00a20b0a-2ec0-5bdc-a08d-65a85dc81d5b.function_arn
+  sensitive = false
+}
+
+
+output "aws_lambda_hello_kitty_function_santhosh_guna_function_name" {
+  value = module.appcd_00a20b0a-2ec0-5bdc-a08d-65a85dc81d5b.function_name
   sensitive = false
 }
