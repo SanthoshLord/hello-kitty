@@ -7,7 +7,7 @@
       "create_function_url": true,
       "description": null,
       "environment_variables": {
-        "IMAGES_BUCKET": "Santhosh-Guna"
+        "IMAGES_BUCKET": "santhosh-guna-zsdw321"
       },
       "event_source_arn": null,
       "event_source_mapping": [],
